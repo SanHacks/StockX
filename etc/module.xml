@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--
+  ~ /**
+  ~  * Copyright © Vaimo Group. All rights reserved.
+  ~  * See LICENSE_VAIMO.txt for license details.
+  ~  */
+  -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Gundo_StockX">
+        <sequence>
+            <module name="Magento_CatalogUrlRewrite"/>
+            <module name="Magento_CatalogUrlRewriteGraphQl"/>
+            <module name="Magento_CatalogWidget"/>
+            <module name="Magento_Checkout"/>
+            <module name="Magento_CheckoutAgreements"/>
+            <module name="Magento_Cms"/>
+            <module name="Magento_Cookie"/>
+            <module name="Magento_Cron"/>
+            <module name="Magento_CurrencySymbol"/>
+        </sequence>
+    </module>
+</config>

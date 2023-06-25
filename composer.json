@@ -1,0 +1,29 @@
+{
+  "name": "gundo/module-stockx",
+  "version": "1.0.0",
+  "description": "CronJobs",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-catalog-url-rewrite": "100.4.*",
+    "magento/module-catalog-url-rewrite-graph-ql": "100.4.*",
+    "magento/module-catalog-widget": "100.4.*",
+    "magento/module-checkout": "100.4.*",
+    "magento/module-checkout-agreements": "100.4.*",
+    "magento/module-cms": "104.0.*",
+    "magento/module-cookie": "100.4.*",
+    "magento/module-cron": "100.4.*",
+    "magento/module-currency-symbol": "100.4.*"
+  },
+  "license": [
+    "Massachusetts Institute of Technology License (MITL)"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Gundo\\StockX\\": ""
+    }
+  }
+}
